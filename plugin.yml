@@ -1,0 +1,17 @@
+ name: DontStopRunning
+  main: PalkiaDude\DontStopRunning\Main
+  version: 0.0.1
+  api: 1.0.0
+  load: DSRWorld
+  prefix: "GAME"
+  authors: [PalkiaDude]
+  description: "Never stop running as the floor behind you. May the most skilled runner win."
+  commands:
+   DSR:
+    description: "DontStopRunning commands"
+    usage: "/DSR <subcommand>"
+    permission: DSR.command.DSR
+  permissions:
+    DSR.command.DSR:
+      description: Permission for /game command.
+      default: true
